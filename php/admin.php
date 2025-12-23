@@ -1,6 +1,6 @@
 <?php
 $username = 'admin';
-$password = 'password';
+$password = '58602004';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($_POST['username'] === $username && $_POST['password'] === $password) {
@@ -35,3 +35,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </form>
 </body>
 </html>
+
